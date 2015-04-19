@@ -7,6 +7,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta property="og:type" content="article">
+        <meta property="og:image" content="http://www.catherinebesson.net/img/Bourlamaque-Val-dor.jpg">
+        <meta property="og:description" content="Photographies d'Abitibi-Témiscamingue à vendre" />
+        <meta property="og:video:width" content="640" />
+        <meta property="og:video:height" content="480" />
+
+
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
@@ -40,7 +47,6 @@
         <!-- MENU -->
 
         <nav class="navbar navbar-default">
-            <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
@@ -94,51 +100,79 @@
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
         </nav>
 
     <h1>Photographies d'Abitibi-Témiscamingue</h1>
 
         <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <h4>Village Bourlamaque | Val-d'Or</h4>
+            <div class="col-xs-6 col-md-4">
+                <h4><b>No 1 </b>| Bourlamaque | Val-d'Or</h4>
                 <img src="img/Bourlamaque-Val-dor.jpg"/>
+                <p>Image automnale présentée sur support rigide, impression haute Qualité. Format 16 x 16 po.</br> <b> Prix 10 $</b></p>
                 <!-- bouton partage facebook -->
                 <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                 <!-- fin bouton partage facebook -->
-                <h4>UQAT | Rouyn-Noranda</h4>
+                <h4><b>No 2 </b>| UQAT | Rouyn-Noranda</h4>
                 <img src="img/UQAT-Neige.JPG"/>
+                <p>Ambiance hivernale présentée sur support souple, impression haute Qualité. Format 8 x 8 po.</br> <b> Prix 20 $</b></p>
                 <!-- bouton partage facebook -->
                 <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                 <!-- fin bouton partage facebook -->
             </div>
-            <div class="col-xs-12 col-md-4">
-                <h4>Abstraction | Parc Aiguebelle</h4>
+            <div class="col-xs-6 col-md-4">
+                <h4><b> No 3</b> | Abstraction | Parc Aiguebelle</h4>
                 <img src="img/Parc-aiguebelle.JPG"/>
+                <p>Visuel contemporain, imprimé très haute Qualité. Support souple. Format 8 x 8 po.</br> <b> Prix 5 $</b></p>
                 <!-- bouton partage facebook -->
                 <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                 <!-- fin bouton partage facebook -->
-                <h4>Signalisation | Malartic</h4>
+                <h4><b> No 4</b> | Signalisation | Malartic</h4>
                 <img src="img/Panneau-neige.JPG"/>
+                <p>Visuel graphique présenté sur un support Dibon Haute Qualité. Format 16 x 16 po.</br> <b> Prix 10 $</b></p>
                 <!-- bouton partage facebook -->
                 <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                 <!-- fin bouton partage facebook -->
             </div>
-            <div class="col-xs-12 col-md-4">
-                <h4>Rue enneigée | Malartic</h4>
+            <div class="col-xs-6 col-md-4">
+                <h4><b>No 5</b> | Rue enneigée | Malartic</h4>
                 <img src="img/malartic.jpg"/>
+                <p>Visuel enneigé malarticois, imprimé très haute Qualité. Support souple. Format 8 x 8 po.</br> <b> Prix 5 $</b></p>
                 <!-- bouton partage facebook -->
                 <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                 <!-- fin bouton partage facebook -->
-                <h4>Soirée | Malartic</h4>
+                <h4><b>No 6</b> | Soirée | Malartic</h4>
                 <img src="img/Rue-Malartic.JPG"/>
+                <p>Ambiance chalheureuse et abstraite, imprimée très haute Qualité. Support souple. Format 8 x 8 po.</br> <b> Prix 5 $</b> </p>
                 <!-- bouton partage facebook -->
                 <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                 <!-- fin bouton partage facebook -->
             </div>
-
         </div>
 
+        <div>
+            <h2>Sélectionnez vos photographies</h2>
+            <div class="btn-toolbar" role="toolbar" aria-label="1">
+                <div class="btn-group" role="group" aria-label="...">...</div>
+                <div class="btn-group" role="group" aria-label="...">...</div>
+                <div class="btn-group" role="group" aria-label="...">...</div>
+            </div>
+        </div>
+
+        <!-- Paiement stripe bouton -->
+        <h2>Réglez votre achat</h2>
+        <form action="" method="POST">
+            <script
+                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="pk_test_5Dbd5MNdRWviWfzVdZdCW7Zt"
+                data-amount="2000"
+                data-name="Demo Site"
+                data-description="2 widgets ($20.00)"
+                data-image="/128x128.png">
+            </script>
+        </form>
+        <!-- fin Paiement stripe bouton -->
+
+        <h2>Vous avez un compte ? Connectez-vous.</h2>
 
         <form class="form-horizontal">
         <div class="form-group">
@@ -189,9 +223,11 @@
             ga('send', 'pageview');
 
         </script>
+
+    </div>
     </body>
     <footer>
-        <p>2015 | Tous droits réservés | © Catherine Besson</p>
+        <p class="text-center">2015 | Tous droits réservés | © Catherine Besson</p>
     </footer>
 
 </html>
