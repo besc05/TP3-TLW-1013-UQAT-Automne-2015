@@ -21,23 +21,6 @@
 
     <body>
 
-    <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-                appId      : '1428382310809632',
-                xfbml      : true,
-                version    : 'v2.3'
-            });
-        };
-
-        (function(d, s, id){
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {return;}
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 
     <!-- action partage facebook -->
 
@@ -65,7 +48,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">TOURISM</a>
+                    <a class="navbar-brand" href="#">CATHERINE BESSON</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
@@ -114,29 +97,58 @@
             </div><!-- /.container-fluid -->
         </nav>
 
-    <h1>Bienvenue sur mon site !</h1>
+    <h1>Photographies d'Abitibi-Témiscamingue</h1>
 
-        <div
-            class="fb-like"
-            data-share="true"
-            data-width="450"
-            data-show-faces="true">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <h4>Village Bourlamaque | Val-d'Or</h4>
+                <img src="img/Bourlamaque-Val-dor.jpg"/>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+                <h4>UQAT | Rouyn-Noranda</h4>
+                <img src="img/UQAT-Neige.JPG"/>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h4>Abstraction | Parc Aiguebelle</h4>
+                <img src="img/Parc-aiguebelle.JPG"/>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+                <h4>Signalisation | Malartic</h4>
+                <img src="img/Panneau-neige.JPG"/>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h4>Rue enneigée | Malartic</h4>
+                <img src="img/malartic.jpg"/>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+                <h4>Soirée | Malartic</h4>
+                <img src="img/Rue-Malartic.JPG"/>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+            </div>
+
         </div>
 
 
-        <!-- bouton partage facebook -->
-        <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-        <!-- fin bouton partage facebook -->
-
         <form class="form-horizontal">
         <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <label for="inputEmail3" class="col-sm-2 control-label">Courriel</label>
             <div class="col-sm-10">
                 <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
             </div>
         </div>
         <div class="form-group">
-            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+            <label for="inputPassword3" class="col-sm-2 control-label">Mot de passe</label>
             <div class="col-sm-10">
                 <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
             </div>
@@ -145,14 +157,14 @@
             <div class="col-sm-offset-2 col-sm-10">
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox"> Remember me
+                        <input type="checkbox">Se souvenir de moi
                     </label>
                 </div>
             </div>
         </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Sign in</button>
+                <button type="submit" class="btn btn-default">Se connnecter</button>
             </div>
         </div>
     </form>
