@@ -13,7 +13,6 @@
         <meta property="og:image" content="http://www.catherinebesson.net/img/Bourlamaque-Val-dor.jpg"/>
         <meta property="og:description" content="Des images inattendues et contemporaines qui complèteront parfaitement la décoration de votre maison." />
 
-        <link rel="stylesheet" href="css/main.css">
 
     <!-- Bootstrap CSS -->
 
@@ -39,10 +38,20 @@
     <!-- action like facebook -->
 
      <script>  window.fbAsyncInit = function() { 
-        FB.init({             appId      : '1428382310809632',             xfbml      : true,             version    : 'v2.3'         }); };  (function(d, s, id){         var js, fjs = d.getElementsByTagName(s)[0]; 
-        if (d.getElementById(id)) {return;}         js = d.createElement(s); js.id = id; 
+            FB.init({ 
+                appId      : '1428382310809632', 
+                xfbml      : true, 
+                version    : 'v2.3' 
+            }); 
+    };  
+    (function(d, s, id){ 
+        var js, fjs = d.getElementsByTagName(s)[0]; 
+        if (d.getElementById(id)) {return;} 
+        js = d.createElement(s); js.id = id; 
         js.src = "//connect.facebook.net/en_US/sdk.js"; 
-        fjs.parentNode.insertBefore(js, fjs);     }(document, 'script', 'facebook-jssdk')); </script>
+        fjs.parentNode.insertBefore(js, fjs); 
+    }(document, 'script', 'facebook-jssdk')); 
+    </script>
 
     <!-- fin action like facebook -->
 
@@ -50,7 +59,8 @@
 
     <div class="container">
 
-        <!-- MENU -->
+
+        <!-- Navigation -->
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -93,104 +103,151 @@
 
     <h1>Photographies d'Abitibi-Témiscamingue</h1>
 
-        <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <h4><b>No 1 </b>| Bourlamaque | Val-d'Or</h4>
-                <img src="img/Bourlamaque-Val-dor.jpg"/>
-                <p>Image automnale présentée sur support rigide, impression haute Qualité. Format 16 x 16 po.</br> <b> Prix 10 $</b></p>
-                <!-- bouton partage facebook -->
-                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-                <!-- fin bouton partage facebook -->
-                <h4><b>No 3 </b>| UQAT | Rouyn-Noranda</h4>
-                <img src="img/UQAT-Neige.JPG"/>
-                <p>Ambiance hivernale présentée sur support souple, impression haute Qualité. Format 8 x 8 po.</br> <b> Prix 20 $</b></p>
-                <!-- bouton partage facebook -->
-                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-                <!-- fin bouton partage facebook -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Commentaires sur le TP
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        J'ai remarqué que mes images n'apparaissent pas dans l'ordre logique de lecture en version "desktop" (è cause des colonnes).<br>
+                        Le paiement Stripe n'est pas fonctionnel. J'ai joué dans le php, mais je ne maîtrise pas assez le language pour finaliser.
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12 col-md-4">
-                <h4><b> No 2</b> | Abstraction | Parc Aiguebelle</h4>
-                <img src="img/Parc-aiguebelle.JPG"/>
-                <p>Visuel contemporain, imprimé très haute Qualité. Support souple. Format 8 x 8 po.</br> <b> Prix 5 $</b></p>
-                <!-- bouton partage facebook -->
-                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-                <!-- fin bouton partage facebook -->
-                <h4><b> No 5</b> | Signalisation | Malartic</h4>
-                <img src="img/Panneau-neige.JPG"/>
-                <p>Visuel graphique présenté sur un support Dibon Haute Qualité. Format 16 x 16 po.</br> <b> Prix 10 $</b></p>
-                <!-- bouton partage facebook -->
-                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-                <!-- fin bouton partage facebook -->
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <h4><b>No 3</b> | Rue enneigée | Malartic</h4>
-                <img src="img/malartic.jpg"/>
-                <p>Visuel enneigé malarticois, imprimé très haute Qualité. Support souple. Format 8 x 8 po.</br> <b> Prix 5 $</b></p>
-                <!-- bouton partage facebook -->
-                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-                <!-- fin bouton partage facebook -->
-                <h4><b>No 6</b> | Soirée | Malartic</h4>
-                <img src="img/Rue-Malartic.JPG"/>
-                <p>Ambiance chalheureuse et abstraite, imprimée très haute Qualité. Support souple. Format 8 x 8 po.</br> <b> Prix 5 $</b> </p>
-                <!-- bouton partage facebook -->
-                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-                <!-- fin bouton partage facebook -->
-            </div>
-        </div>
 
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <h4><b>No 1 </b>| Bourlamaque | Val-d'Or</h4>
+                <img src="img/Bourlamaque-Val-dor.jpg" class="img-responsive img-rounded" alt="Responsive image" />
+                <hr>
+                <p>Image automnale présentée sur support rigide, impression haute Qualité.<br>Format 16 x 16 po. <b> Prix 10 $</b></p>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+                <hr>
+                <h4><b>No 2 </b>| UQAT | Rouyn-Noranda</h4>
+                <img src="img/UQAT-Neige.JPG" class="img-responsive img-rounded" alt="Responsive image" />
+                <hr>
+                <p>Ambiance hivernale présentée sur support souple, impression haute Qualité. <br>Format 8 x 8 po. <b> Prix 20 $</b></p>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+                <hr>
+                <h4><b> No 3</b> | Signalisation | Malartic</h4>
+                <img src="img/Panneau-neige.JPG" class="img-responsive img-rounded" alt="Responsive image" />
+                <hr>
+                <p>Visuel graphique présenté sur un support Dibon Haute Qualité. <br>Format 16 x 16 po. <b> Prix 10 $</b></p>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+                <hr>
+
+
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <h4><b> No 4</b> | Abstraction | Parc Aiguebelle</h4>
+                <img src="img/Parc-aiguebelle.JPG" class="img-responsive img-rounded" alt="Responsive image" />
+                <hr>
+                <p>Visuel contemporain, imprimé très haute Qualité. Support souple. <br>Format 8 x 8 po. <b> Prix 5 $</b></p>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+                <hr>
+                <h4><b>No 5</b> | Rue enneigée | Malartic</h4>
+                <img src="img/malartic.jpg" class="img-responsive img-rounded" alt="Responsive image" />
+                <hr>
+                <p>Visuel enneigé malarticois, imprimé très haute Qualité. Support souple. <br>Format 8 x 8 po. <b> Prix 5 $</b></p>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+                <hr>
+                <h4><b>No 6</b> | Soirée | Malartic</h4>
+                <img src="img/Rue-Malartic.JPG" class="img-responsive img-rounded" alt="Responsive image" />
+                <hr>
+                <p>Ambiance chalheureuse et abstraite, imprimée très haute Qualité. Support souple. <br>Format 8 x 8 po. <b> Prix 5 $</b> </p>
+                <!-- bouton partage facebook -->
+                <div class="fb-like" data-href="http://catherinebesson.net" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- fin bouton partage facebook -->
+                <hr>
+            </div>
+
+
+        </div>
         <div>
-            <h2>Sélectionnez vos photographies</h2>
-            <div class="btn-toolbar" role="toolbar" aria-label="1">
-                <div class="btn-group" role="group" aria-label="...">...</div>
-                <div class="btn-group" role="group" aria-label="...">...</div>
-                <div class="btn-group" role="group" aria-label="...">...</div>
+            <h3>Sélectionnez vos photographies</h3>
+            <div class="btn-toolbar" role="toolbar" >
+                <button type="button" class="btn btn-default btn-lg">
+                    <b>No 1</b>
+                </button>
+                <button type="button" class="btn btn-default btn-lg">
+                    <b>No 2</b>
+                </button>
+                <button type="button" class="btn btn-default btn-lg">
+                    <b>No 3</b>
+                </button>
+                <button type="button" class="btn btn-default btn-lg">
+                    <b>No 4</b>
+                </button>
+                <button type="button" class="btn btn-default btn-lg">
+                    <b>No 5</b>
+                </button>
+                <button type="button" class="btn btn-default btn-lg">
+                    <b>No 6</b>
+                </button>
             </div>
         </div>
+        <hr>
+
+        <h3>Vous avez un compte ? Connectez-vous</h3>
+
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Courriel</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Courriel">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Mot de passe</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Mot de passe">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox">Se souvenir de moi
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Se connnecter</button>
+                </div>
+            </div>
+        </form>
+        <hr>
 
         <!-- Paiement stripe bouton -->
-        <h2>Réglez votre achat</h2>
+        <h3>Réglez votre achat</h3>
         <form action="" method="POST">
             <script
                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                 data-key="pk_test_5Dbd5MNdRWviWfzVdZdCW7Zt"
                 data-amount="2000"
-                data-name="Demo Site"
-                data-description="1 widgets ($10.00)"
+                data-name="Photographies AT"
+                data-description="1 widget ($10.00)"
                 data-image="/128x128.png">
             </script>
         </form>
         <!-- fin Paiement stripe bouton -->
-
-        <h2>Vous avez un compte ? Connectez-vous.</h2>
-
-        <form class="form-horizontal">
-        <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Courriel</label>
-            <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="inputPassword3" class="col-sm-2 control-label">Mot de passe</label>
-            <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox">Se souvenir de moi
-                    </label>
-                </div>
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Se connnecter</button>
-            </div>
-        </div>
-    </form>
 
 
 
@@ -207,6 +264,14 @@
         </script>
 
     </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    </div>
+
     </body>
     <footer>
         <hr>
